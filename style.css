@@ -5,7 +5,7 @@
     font-family: Arial, sans-serif;
 }
 .navbar {
-    background: black;
+    background-image: url(https://image.shutterstock.com/image-illustration/abstract-light-blue-purple-pink-260nw-1278010639.jpg);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
     height: 80px;
 }
 
- .navbar__links {
+ /* .navbar__links {
      color: white;
      display: flex;
      align-items: center;
@@ -57,7 +57,7 @@
      text-decoration: none;
      padding: 0 2rem;
      height: 100%;
- }
+ } */
 
 
  .navbar__btn {
@@ -84,11 +84,17 @@
  }
 
  .button:hover {
-     background: green;
+     background: blueviolet;
      transition: all 0.3s ease
  }
 
- .links:hover {
-     background: green;
+ .navbar__links:hover {
+     color: blueviolet;
      transition: all 0.3s ease;
+ }
+ body {
+     background-image: url("https://thumbs.gfycat.com/LimpingDishonestChickadee-size_restricted.gif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     
  }
